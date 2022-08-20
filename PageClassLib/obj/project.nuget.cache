@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "7We/0FUGI/8jWvt7cxZs9MJfHyGsf0SKier1ZpRYhwg0Bw/LxnWH8h8/xKb6QS2+sMxZZr28UqnATdMS9OG9MA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\E001150\\Desktop\\RootFolder\\PageObjectModelExample\\PageClassLib\\PageClassLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\E001150\\.nuget\\packages\\dotnetseleniumextras.pageobjects\\3.11.0\\dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
+    "C:\\Users\\E001150\\.nuget\\packages\\dotnetseleniumextras.pageobjects.core\\4.3.0\\dotnetseleniumextras.pageobjects.core.4.3.0.nupkg.sha512",
+    "C:\\Users\\E001150\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+    "C:\\Users\\E001150\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\E001150\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\E001150\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\E001150\\.nuget\\packages\\selenium.webdriver\\4.3.0\\selenium.webdriver.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
