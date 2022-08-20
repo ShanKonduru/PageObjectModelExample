@@ -1,0 +1,4 @@
+OperandOne, OperandTwo, ExpectedResult
+10, 20,30
+15, 15, 30
+45, 15, 60
