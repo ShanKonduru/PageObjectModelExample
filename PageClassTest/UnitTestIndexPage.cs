@@ -27,7 +27,7 @@ namespace PageClassTest {
             Thread.Sleep (5000);
             homePage.Quit ();
         }
-
+        /*
         [DataSource ("Microsoft.VisualStudio.TestTools.DataSource.CSV", ".\\TestsData.csv", "TestsData#csv", DataAccessMethod.Sequential)]
         [TestMethod]
         public void DataDrivenTest () {
@@ -36,7 +36,7 @@ namespace PageClassTest {
             double expected = Convert.ToDouble (TestContext.DataRow["ExpectedResult"]);
             Assert.AreEqual (expected, operandOne + operandTwo);
         }
-
+        */
         [TestMethod]
         [Ignore]
         public void TestMethod2 () {
