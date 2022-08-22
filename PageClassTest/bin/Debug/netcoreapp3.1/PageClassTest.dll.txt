@@ -1,1 +1,3 @@
+PageClassTest.UnitTestIndexPage.TestMethod1
 PageClassTest.UnitTestIndexPage.TestMethod2
+PageClassTest.UnitTestIndexPage.TestHomePageLoginMethod

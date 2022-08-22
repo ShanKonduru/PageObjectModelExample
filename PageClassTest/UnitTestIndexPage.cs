@@ -8,13 +8,6 @@ using PageClassLib;
 namespace PageClassTest {
     [TestClass]
     public class UnitTestIndexPage {
-
-        // regular test context
-        public TestContext TestContext { get; set; }
-
-        // global class test context
-        private static TestContext ClassTestContext { get; set; }
-
         [TestMethod]
         [Ignore]
         public void TestMethod1 () {
@@ -43,6 +36,15 @@ namespace PageClassTest {
             IWebDriver driver = new ChromeDriver (@"C:\SeleniumWebdrivers");
             driver.Navigate ().GoToUrl ("http://www.webdriveruniversity.com/Page-Object-Model/products.html");
             UniversityHomePage homePage = new UniversityHomePage (driver);
+            homePage.Maximize ();
+            Thread.Sleep (5000);
+            homePage.Quit ();
+        }
+        [TestMethod]
+        public void TestHomePageLoginMethod() {
+            IWebDriver driver = new ChromeDriver (@"C:\SeleniumWebdrivers");
+            driver.Navigate ().GoToUrl ("http://www.webdriveruniversity.com/Page-Object-Model/products.html");
+            HomePage homePage = new HomePage(driver);
             homePage.Maximize ();
             Thread.Sleep (5000);
             homePage.Quit ();

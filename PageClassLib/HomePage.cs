@@ -16,7 +16,6 @@ namespace PageClassLib {
         private IWebElement _signIn;
 
         public HomePage (IWebDriver driver) : base (driver) {
-            _driver = driver;
             PageFactory.InitElements (_driver, this);
         }
 
@@ -28,26 +27,6 @@ namespace PageClassLib {
             _userName.SendKeys (username);
             _password.SendKeys (password);
             _signIn.Click ();
-        }
-
-        public void Quit () {
-            _driver.Quit ();
-        }
-
-        public void Close () {
-            _driver.Close ();
-        }
-
-        //Accepting an Alert
-        public void AlertAccept () {
-            IAlert alert = _driver.SwitchTo ().Alert ();
-            alert.Accept ();
-        }
-
-        //Closing an Alert
-        public void AlertDismiss () {
-            IAlert alert = _driver.SwitchTo ().Alert ();
-            alert.Dismiss ();
         }
     }
 }

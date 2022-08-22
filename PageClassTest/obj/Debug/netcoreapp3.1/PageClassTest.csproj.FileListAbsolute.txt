@@ -97,3 +97,4 @@ c:\Users\E001150\Desktop\RootFolder\PageObjectModelExample\PageClassTest\obj\Deb
 C:\Users\E001150\Desktop\RootFolder\PageObjectModelExample\PageClassTest\bin\Debug\netcoreapp3.1\SeleniumExtras.PageObjects.dll
 C:\Users\E001150\Desktop\RootFolder\PageObjectModelExample\PageClassTest\bin\Debug\netcoreapp3.1\SeleniumExtras.WaitHelpers.dll
 C:\Users\E001150\Desktop\RootFolder\PageObjectModelExample\PageClassTest\bin\Debug\netcoreapp3.1\WebDriver.dll
+c:\Users\E001150\Desktop\RootFolder\PageObjectModelExample\PageClassTest\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.AdapterUtilities.dll
